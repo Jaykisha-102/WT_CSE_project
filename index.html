@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Stock Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Stock Market</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="stock.html">Stocks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center p-5">
+        <div class="container">
+            <h1>Welcome to the Indian Stock Market</h1>
+            <p>Live stock prices, market trends, and the latest financial news at your fingertips.</p>
+        </div>
+    </section>
+
+    <!-- Stock Indices -->
+    <section class="container my-5">
+        <h2>Market Indices</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <div class="card-header bg-success text-white">SENSEX</div>
+                    <div class="card-body">
+                        <h5 class="card-title">51,000.25</h5>
+                        <p class="card-text">+125.25 (0.25%)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <div class="card-header bg-warning text-dark">NIFTY 50</div>
+                    <div class="card-body">
+                        <h5 class="card-title">15,200.45</h5>
+                        <p class="card-text">+98.75 (0.66%)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <div class="card-header bg-danger text-white">BANKEX</div>
+                    <div class="card-body">
+                        <h5 class="card-title">38,100.75</h5>
+                        <p class="card-text">-150.50 (-0.39%)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Gainers & Losers -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Top Gainers</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Reliance Industries <span class="badge bg-success">+5.50%</span></li>
+                    <li class="list-group-item">Tata Steel <span class="badge bg-success">+4.25%</span></li>
+                    <li class="list-group-item">Infosys <span class="badge bg-success">+3.80%</span></li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h3>Top Losers</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">HDFC Bank <span class="badge bg-danger">-2.30%</span></li>
+                    <li class="list-group-item">ICICI Bank <span class="badge bg-danger">-1.75%</span></li>
+                    <li class="list-group-item">Axis Bank <span class="badge bg-danger">-1.50%</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News Section -->
+    <section class="container my-5">
+        <h2>Market News</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="sensex-nifty.avif" class="card-img-top" alt="News">
+                    <div class="card-body">
+                        <h5 class="card-title">Sensex hits all-time high</h5>
+                        <p class="card-text">The Sensex reached a record high today, driven by gains in tech and financial stocks...</p>
+                        <a href="https://www.thehindu.com/business/markets/sensex-hits-fresh-record-high-in-early-trade-on-buying-in-it-
+                        stocks-rally-in-global-markets/article68689100.ece#:~:text=The%20BSE%20Sensex%20climbed%20119.38%20points%20to%20
+                        reach%20a%20record%20peak%20of%2085%2C955.50&text=The%20BSE%20benchmark%20Sensex%20hit,a%20rally%20in%20global%20
+                        markets." class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="rbi.jpg" class="card-img-top" alt="News">
+                    <div class="card-body">
+                        <h5 class="card-title">RBI cuts repo rates</h5>
+                        <p class="card-text">The Reserve Bank of India announced a 25 basis points cut in the repo rate to boost growth...</p>
+                        <a href="https://www.bankbazaar.com/home-loan/repo-rate.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="IT-Sector.jpg" class="card-img-top" alt="News">
+                    <div class="card-body">
+                        <h5 class="card-title">India's IT sector on the rise</h5>
+                        <p class="card-text">Tech companies like Infosys and Wipro continue to dominate the stock market amid global demand...</p>
+                        <a href="https://www.ndtvprofit.com/business/us-fed-rate-cut-bfsi-growth-indian-it-sector" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">Stocks</a></li>
+                    <li><a href="#" class="text-white">News</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Contact Us</h5>
+                <p>Email: support@indianstockmarket.com</p>
+                <p>Phone: +91 1234-567-890</p>
+            </div>
+            <div class="col-lg-4">
+                <h5>Social Media</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Twitter</a></li>
+                    <li><a href="#" class="text-white">Facebook</a></li>
+                    <li><a href="#" class="text-white">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

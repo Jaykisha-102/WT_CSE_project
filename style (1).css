@@ -1,0 +1,25 @@
+/* Custom CSS for Stock Market Website */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.card-body h5 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+section h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
